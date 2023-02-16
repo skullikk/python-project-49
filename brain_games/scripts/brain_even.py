@@ -13,7 +13,8 @@ def main():
         result = number_ % 2 == 0 and 'yes' or 'no'
         user_answer = prompt.string('Your answer: ')
         if user_answer != result or user_answer not in ['yes', 'no']:
-            print(f'\'{user_answer}\' is wrong answer ;(. Correct answer was \'{result}\'.')
+            print(f'\'{user_answer}\' is wrong answer ;(.', end=' ')
+            print(f'Correct answer was \'{result}\'.')
             print(f'Let\'s try again, {name}!')
             break
         else:
