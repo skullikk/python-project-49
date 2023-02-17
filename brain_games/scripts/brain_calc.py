@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import prompt
 from random import randint, choice
-from brain_games.cli import welcome_user,answer_incorrect
+from brain_games.cli import welcome_user, answer_incorrect
 
 
 def main():
