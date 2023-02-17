@@ -4,4 +4,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/b74a577bc9ecb959a3ca/maintainability)](https://codeclimate.com/github/skullikk/python-project-49/maintainability)
 
 
-[How to play](https://asciinema.org/a/UBTofRRqQC5Zcz5T8xeMzcioS)
+[How to play](https://asciinema.org/a/xnFt4vKCj3Uxj5ZQNaus2iEMf)
