@@ -1,11 +1,11 @@
+#!/usr/bin/env python3
 import prompt
 from random import randint
+from brain_games.cli import welcome_user, answer_incorrect
 
 
 def main():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     for _ in range(3):
         number_ = randint(1, 100)
@@ -13,9 +13,7 @@ def main():
         result = number_ % 2 == 0 and 'yes' or 'no'
         user_answer = prompt.string('Your answer: ')
         if user_answer != result or user_answer not in ['yes', 'no']:
-            print(f'\'{user_answer}\' is wrong answer ;(.', end=' ')
-            print(f'Correct answer was \'{result}\'.')
-            print(f'Let\'s try again, {name}!')
+            answer_incorrect(result, user_answer, name)
             break
         else:
             print('Correct!')
