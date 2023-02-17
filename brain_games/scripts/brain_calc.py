@@ -8,7 +8,7 @@ def main():
     name = welcome_user()
     signs = ['+', '-', '*']
     print('What is the result of the expression?')
-    for _ in range(3):
+    for i in range(3):
         number_1 = randint(1, 10)
         number_2 = randint(1, 10)
         sign = choice(signs)

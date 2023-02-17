@@ -7,7 +7,7 @@ from brain_games.cli import welcome_user, answer_incorrect
 def main():
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    for _ in range(3):
+    for i in range(3):
         number_ = randint(1, 100)
         print(f'Question: {number_}')
         result = number_ % 2 == 0 and 'yes' or 'no'
