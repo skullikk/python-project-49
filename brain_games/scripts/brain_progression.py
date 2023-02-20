@@ -8,14 +8,14 @@ def progression():
     start = randint(1, 10)
     lenght = randint(5, 10)
     step = randint(2, 10)
-    index = randint(0, lenght-1)
+    index = randint(0, lenght - 1)
     stop = start + lenght * step
     list_ = list(range(start, stop, step))
     number_ = list_[index]
     list_[index] = '..'
     print('Question: ', end='')
     print(*list_, sep=' ')
-    return number_    
+    return number_
 
 
 def main():

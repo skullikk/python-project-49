@@ -5,3 +5,5 @@
 
 
 [How to play](https://asciinema.org/a/xnFt4vKCj3Uxj5ZQNaus2iEMf)
+
+[How to play brain-prime](https://asciinema.org/a/0kDJlNOraGyRPHbLSSB0yyZ8I)
